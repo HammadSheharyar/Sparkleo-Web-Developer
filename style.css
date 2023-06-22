@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+
+  margin: 20px;
+  width: 1440px;
+  text-align: center;
+}
+
+/* nav-bar section */
+#nav-bar {
+  background: #379dfb;
+  width: 1536px;
+  height: 51px;
+  margin-bottom: 130px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.logo {
+  position: relative;
+  display: inline-flex;
+  width: 113.97300720214844px;
+  height: 27.017362594604492px;
+  top: 17.796509px;
+  left: -540.983826px;
+
+  text-decoration: none;
+  color: #fff;
+}
+.nav-item {
+  position: relative;
+  font-family: Poppins;
+  display: inline-flex;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  width: 210px;
+  height: 30px;
+  top: 6px;
+  left: 600px;
+  text-decoration: none;
+  color: #fff;
+}
+.cont-md {
+  /* padding: 5% 15% 15%; */
+}
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form button {
+  margin-top: 5px;
+}
+
+ul#currentEmployees {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul#currentEmployees li {
+  margin-bottom: 5px;
+}
+
+.delete-button {
+  cursor: pointer;
+  color: red;
+  margin-left: 5px;
+}
